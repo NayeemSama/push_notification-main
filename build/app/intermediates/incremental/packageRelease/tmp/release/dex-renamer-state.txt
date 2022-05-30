@@ -1,0 +1,4 @@
+#Thu May 26 12:45:15 IST 2022
+base.0=/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

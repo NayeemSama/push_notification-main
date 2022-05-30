@@ -1,0 +1,588 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.push_notification"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+11-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:5-68
+12-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+13-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+14-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+15-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+16    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+16-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:28:5-82
+17-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:28:22-79
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85d6e14f05c39313ed352ff3d6a8b713/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+18-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85d6e14f05c39313ed352ff3d6a8b713/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+20-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+21
+22    <application
+23        android:name="android.app.Application"
+23-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:5:8-41
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.6.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:7:8-42
+26        android:label="push_notification"
+26-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:6:8-41
+27        android:usesCleartextTraffic="true" >
+27-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:8:8-43
+28        <activity
+28-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:10:9-44:20
+29            android:name="com.example.push_notification.MainActivity"
+29-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:12:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:15:13-163
+31            android:exported="true"
+31-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:11:13-36
+32            android:hardwareAccelerated="true"
+32-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:16:13-47
+33            android:launchMode="singleTop"
+33-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:13:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:14:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:17:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:23:13-26:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:24:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:25:15-52
+46            <!--
+47                 Displays an Android View that continues showing the launch screen
+48                 Drawable until Flutter paints its first frame, then this splash
+49                 screen fades out. A splash screen is useful to avoid any visual
+50                 gap between the end of Android's launch screen and the painting of
+51                 Flutter's first frame.
+52            -->
+53            <meta-data
+53-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:32:13-35:17
+54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+54-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:33:15-79
+55                android:resource="@drawable/launch_background" />
+55-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:34:15-61
+56
+57            <intent-filter>
+57-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:39:13-42:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:40:17-69
+58-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:40:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:41:17-76
+60-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:41:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:47:9-49:33
+68            android:name="flutterEmbedding"
+68-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:48:13-44
+69            android:value="2" />
+69-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:49:13-30
+70        <meta-data
+70-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:51:8-53:54
+71            android:name="com.google.firebase.messaging.default_notification_channel_id"
+71-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:52:12-88
+72            android:value="high_importance_channel" />
+72-->/Volumes/Projects/Flutter Live/Flutter_push_notification-main/android/app/src/main/AndroidManifest.xml:53:12-51
+73
+74        <service
+74-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+75            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+75-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+76            android:exported="false"
+76-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+77            android:permission="android.permission.BIND_JOB_SERVICE" />
+77-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+78        <service
+78-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+79            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+79-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+80            android:exported="false" >
+80-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+81            <intent-filter>
+81-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+82                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+82-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+82-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+83            </intent-filter>
+84        </service>
+85
+86        <receiver
+86-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+87            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+87-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+88            android:exported="true"
+88-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+89            android:permission="com.google.android.c2dm.permission.SEND" >
+89-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+90            <intent-filter>
+90-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+91-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+91-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+92            </intent-filter>
+93        </receiver>
+94
+95        <service
+95-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:9-37:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:18-89
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:54:13-37
+99            <meta-data
+99-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+100-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+102            <meta-data
+102-->[:firebase_core] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+103-->[:firebase_core] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_core] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:55:13-57:85
+106                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+106-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:56:17-119
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:57:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-datatransport:18.1.3] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/eca43ce7891d19dd04c0c3a5307f8938/jetified-firebase-datatransport-18.1.3/AndroidManifest.xml:28:13-30:85
+109                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+109-->[com.google.firebase:firebase-datatransport:18.1.3] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/eca43ce7891d19dd04c0c3a5307f8938/jetified-firebase-datatransport-18.1.3/AndroidManifest.xml:29:17-115
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-datatransport:18.1.3] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/eca43ce7891d19dd04c0c3a5307f8938/jetified-firebase-datatransport-18.1.3/AndroidManifest.xml:30:17-82
+111            <meta-data
+111-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85d6e14f05c39313ed352ff3d6a8b713/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+112                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+112-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85d6e14f05c39313ed352ff3d6a8b713/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85d6e14f05c39313ed352ff3d6a8b713/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-installations:17.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/16e30b864601d2783311114b4afb34ac/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+115                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+115-->[com.google.firebase:firebase-installations:17.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/16e30b864601d2783311114b4afb34ac/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-installations:17.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/16e30b864601d2783311114b4afb34ac/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+117        </service>
+118
+119        <provider
+119-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+120            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+120-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+121            android:authorities="com.example.push_notification.flutterfirebasemessaginginitprovider"
+121-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+122            android:exported="false"
+122-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+123            android:initOrder="99" />
+123-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+124
+125        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+125-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:9-106
+125-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:19-103
+126        <receiver
+126-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-22:20
+127            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+127-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-101
+128            android:exported="true" >
+128-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:13-36
+129            <intent-filter>
+129-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:13-21:29
+130                <action android:name="android.intent.action.BOOT_COMPLETED" />
+130-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:17-79
+130-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:25-76
+131                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+131-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:17-84
+131-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:25-81
+132                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+132-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:19:17-82
+132-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:19:25-79
+133                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+133-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:20:17-82
+133-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:20:25-79
+134            </intent-filter>
+135        </receiver>
+136
+137        <uses-library
+137-->[androidx.window:window:1.0.0-beta04] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/2b15ae101a382b4d5aded3e0dcce07d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+138            android:name="androidx.window.extensions"
+138-->[androidx.window:window:1.0.0-beta04] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/2b15ae101a382b4d5aded3e0dcce07d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+139            android:required="false" />
+139-->[androidx.window:window:1.0.0-beta04] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/2b15ae101a382b4d5aded3e0dcce07d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+140        <uses-library
+140-->[androidx.window:window:1.0.0-beta04] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/2b15ae101a382b4d5aded3e0dcce07d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+141            android:name="androidx.window.sidecar"
+141-->[androidx.window:window:1.0.0-beta04] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/2b15ae101a382b4d5aded3e0dcce07d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+142            android:required="false" />
+142-->[androidx.window:window:1.0.0-beta04] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/2b15ae101a382b4d5aded3e0dcce07d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+143
+144        <receiver
+144-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:31:9-38:20
+145            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+145-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:32:13-78
+146            android:exported="true"
+146-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:33:13-36
+147            android:permission="com.google.android.c2dm.permission.SEND" >
+147-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:34:13-73
+148            <intent-filter>
+148-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+149-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+149-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+150            </intent-filter>
+151        </receiver>
+152        <!--
+153             FirebaseMessagingService performs security checks at runtime,
+154             but set to not exported to explicitly avoid allowing another app to call it.
+155        -->
+156        <service
+156-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:44:9-51:19
+157            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+157-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:45:13-82
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:46:13-43
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-messaging:23.0.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c9d2e05affe589a475587ffde4e099e/jetified-firebase-messaging-23.0.4/AndroidManifest.xml:47:13-37
+160            <intent-filter android:priority="-500" >
+160-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+161-->[:firebase_messaging] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+162            </intent-filter>
+163        </service>
+164        <service
+164-->[com.google.android.datatransport:transport-backend-cct:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/f0c8ea2f2114cc5d53037041481918e7/jetified-transport-backend-cct-3.1.4/AndroidManifest.xml:29:9-35:19
+165            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+165-->[com.google.android.datatransport:transport-backend-cct:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/f0c8ea2f2114cc5d53037041481918e7/jetified-transport-backend-cct-3.1.4/AndroidManifest.xml:30:13-103
+166            android:exported="false" >
+166-->[com.google.android.datatransport:transport-backend-cct:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/f0c8ea2f2114cc5d53037041481918e7/jetified-transport-backend-cct-3.1.4/AndroidManifest.xml:31:13-37
+167            <meta-data
+167-->[com.google.android.datatransport:transport-backend-cct:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/f0c8ea2f2114cc5d53037041481918e7/jetified-transport-backend-cct-3.1.4/AndroidManifest.xml:32:13-34:39
+168                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+168-->[com.google.android.datatransport:transport-backend-cct:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/f0c8ea2f2114cc5d53037041481918e7/jetified-transport-backend-cct-3.1.4/AndroidManifest.xml:33:17-94
+169                android:value="cct" />
+169-->[com.google.android.datatransport:transport-backend-cct:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/f0c8ea2f2114cc5d53037041481918e7/jetified-transport-backend-cct-3.1.4/AndroidManifest.xml:34:17-36
+170        </service>
+171        <service
+171-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:26:9-30:19
+172            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+172-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:27:13-117
+173            android:exported="false"
+173-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:28:13-37
+174            android:permission="android.permission.BIND_JOB_SERVICE" >
+174-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:29:13-69
+175        </service>
+176
+177        <receiver
+177-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:32:9-34:40
+178            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+178-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:33:13-132
+179            android:exported="false" />
+179-->[com.google.android.datatransport:transport-runtime:3.1.4] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/85a7931aa2b3ae232e876f52139da803/jetified-transport-runtime-3.1.4/AndroidManifest.xml:34:13-37
+180
+181        <provider
+181-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+182            android:name="com.google.firebase.provider.FirebaseInitProvider"
+182-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+183            android:authorities="com.example.push_notification.firebaseinitprovider"
+183-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+185            android:exported="false"
+185-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+186            android:initOrder="100" />
+186-->[com.google.firebase:firebase-common:20.1.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/fd2d8875874631a29dd0c7ee758e742d/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+187
+188        <receiver
+188-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+189            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+189-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+191            android:exported="false" >
+191-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+192        </receiver>
+193
+194        <service
+194-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+195            android:name="com.google.android.gms.measurement.AppMeasurementService"
+195-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+197            android:exported="false" />
+197-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+198        <service
+198-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+199            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+199-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/963c57d054f3ca33f310df4b65dc2b7b/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+203
+204        <provider
+204-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+205            android:name="androidx.startup.InitializationProvider"
+205-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+206            android:authorities="com.example.push_notification.androidx-startup"
+206-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+207            android:exported="false" >
+207-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+208            <meta-data
+208-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+209                android:name="androidx.work.WorkManagerInitializer"
+209-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+210                android:value="androidx.startup" />
+210-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+211        </provider>
+212
+213        <service
+213-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+214            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+214-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+216            android:enabled="@bool/enable_system_alarm_service_default"
+216-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+217            android:exported="false" />
+217-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+218        <service
+218-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+219            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+219-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+221            android:enabled="@bool/enable_system_job_service_default"
+221-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+222            android:exported="true"
+222-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+223            android:permission="android.permission.BIND_JOB_SERVICE" />
+223-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+224        <service
+224-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+225            android:name="androidx.work.impl.foreground.SystemForegroundService"
+225-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+227            android:enabled="@bool/enable_system_foreground_service_default"
+227-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+228            android:exported="false" />
+228-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+229
+230        <receiver
+230-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+231            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+231-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+233            android:enabled="true"
+233-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+234            android:exported="false" />
+234-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+235        <receiver
+235-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+236            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+236-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+238            android:enabled="false"
+238-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+239            android:exported="false" >
+239-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+240            <intent-filter>
+240-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+241                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+241-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+241-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+242                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+242-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+242-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+243            </intent-filter>
+244        </receiver>
+245        <receiver
+245-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+246            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+246-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+248            android:enabled="false"
+248-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+249            android:exported="false" >
+249-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+250            <intent-filter>
+250-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+251                <action android:name="android.intent.action.BATTERY_OKAY" />
+251-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+251-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+252                <action android:name="android.intent.action.BATTERY_LOW" />
+252-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+252-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+253            </intent-filter>
+254        </receiver>
+255        <receiver
+255-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+256            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+256-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+258            android:enabled="false"
+258-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+259            android:exported="false" >
+259-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+261                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+261-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+261-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+262                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+262-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+262-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+263            </intent-filter>
+264        </receiver>
+265        <receiver
+265-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+266            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+266-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+268            android:enabled="false"
+268-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+271                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+271-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+271-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+272            </intent-filter>
+273        </receiver>
+274        <receiver
+274-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+275            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+275-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+276            android:directBootAware="false"
+276-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+277            android:enabled="false"
+277-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+278            android:exported="false" >
+278-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+279            <intent-filter>
+279-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+280                <action android:name="android.intent.action.BOOT_COMPLETED" />
+280-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:17-79
+280-->[:flutter_local_notifications] /Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:25-76
+281                <action android:name="android.intent.action.TIME_SET" />
+281-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+281-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+282                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+282-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+282-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+286-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+288            android:enabled="@bool/enable_system_alarm_service_default"
+288-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+291                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+291-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+291-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+292            </intent-filter>
+293        </receiver>
+294        <receiver
+294-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+295            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+295-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+296            android:directBootAware="false"
+296-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+297            android:enabled="true"
+297-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+298            android:exported="true"
+298-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+299            android:permission="android.permission.DUMP" >
+299-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+300            <intent-filter>
+300-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+301                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+301-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+301-->[androidx.work:work-runtime:2.7.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/98a71f414ddbd3d565cc22c0d22fa430/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+302            </intent-filter>
+303        </receiver>
+304
+305        <activity
+305-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+306            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+306-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+307            android:exported="false"
+307-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+308            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+308-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+309
+310        <meta-data
+310-->[com.google.android.gms:play-services-basement:18.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/0b97450c335fdb810971da9bd5d219a9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+311            android:name="com.google.android.gms.version"
+311-->[com.google.android.gms:play-services-basement:18.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/0b97450c335fdb810971da9bd5d219a9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+312            android:value="@integer/google_play_services_version" />
+312-->[com.google.android.gms:play-services-basement:18.0.0] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/0b97450c335fdb810971da9bd5d219a9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+313
+314        <service
+314-->[androidx.room:room-runtime:2.2.5] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c65393cbc57fedfc213d634f1090236/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+315            android:name="androidx.room.MultiInstanceInvalidationService"
+315-->[androidx.room:room-runtime:2.2.5] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c65393cbc57fedfc213d634f1090236/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+316            android:directBootAware="true"
+316-->[androidx.room:room-runtime:2.2.5] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c65393cbc57fedfc213d634f1090236/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+317            android:exported="false" />
+317-->[androidx.room:room-runtime:2.2.5] /Users/vishalphp/.gradle/caches/transforms-2/files-2.1/5c65393cbc57fedfc213d634f1090236/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+318    </application>
+319
+320</manifest>

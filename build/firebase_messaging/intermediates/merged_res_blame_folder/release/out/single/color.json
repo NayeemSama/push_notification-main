@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    }
+]

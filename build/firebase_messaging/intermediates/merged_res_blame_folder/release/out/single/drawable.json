@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/firebase_messaging/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/4e11b5f8605de46b7107484b49d6f6fa/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    }
+]

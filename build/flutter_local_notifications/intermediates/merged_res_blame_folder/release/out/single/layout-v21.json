@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/layout-v21/notification_action.xml"
+    }
+]

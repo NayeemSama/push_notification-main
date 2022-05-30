@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dexterous.flutterlocalnotifications" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+7-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:3:5-80
+7-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:3:22-78
+8    <uses-permission android:name="android.permission.VIBRATE" />
+8-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:4:5-66
+8-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:4:22-63
+9    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+9-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:5:5-81
+9-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:5:22-78
+10
+11    <application>
+11-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:6:5-17:19
+12        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+12-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:7:9-106
+12-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:7:19-103
+13        <receiver
+13-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:8:9-16:20
+14            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+14-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:8:19-107
+15            android:exported="true" >
+15-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:9:13-36
+16            <intent-filter>
+16-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:10:13-15:29
+17                <action android:name="android.intent.action.BOOT_COMPLETED" />
+17-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:11:17-78
+17-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:11:25-76
+18                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+18-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:12:17-83
+18-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:12:25-81
+19                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+19-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:13:17-82
+19-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:13:25-79
+20                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+20-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:14:17-81
+20-->/Users/vishalphp/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/src/main/AndroidManifest.xml:14:25-79
+21            </intent-filter>
+22        </receiver>
+23    </application>
+24
+25</manifest>

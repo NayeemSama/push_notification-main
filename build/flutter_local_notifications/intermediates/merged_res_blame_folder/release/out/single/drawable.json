@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Flutter Live/Flutter_push_notification-main/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/vishalphp/.gradle/caches/transforms-2/files-2.1/8d94a1ea714116127fb32d09559d9e07/core-1.6.0/res/drawable/notification_bg.xml"
+    }
+]
